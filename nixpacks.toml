@@ -1,8 +1,8 @@
 [phases.setup]
-nixPkgs = ['python310', 'default-jre']
+nixPkgs = ['python310']
 
 [phases.install]
-cmds = ['pip install -r requirements.txt']
+cmds = ['pip install -r requirements-deploy.txt']
 
 [phases.build]
 cmds = ['python manage.py collectstatic --noinput']
