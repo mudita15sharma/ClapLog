@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![ClapLog Logo](streamlit_app/assets/Logo.png)
-
 **A full-stack film production management system built with Django + Streamlit**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://python.org)
@@ -53,8 +51,6 @@ Built with a **Django REST API backend** and a **Streamlit frontend**, it featur
 | 🔄 **Continuity** | Continuity notes and issue tracking |
 | 📊 **Dashboard** | Live stats: completion %, scene counts, shot counts |
 | 🔐 **Auth** | JWT authentication with email verification |
-| 🌊 **Deep Ocean Theme** | Professional dark UI with cyan accents |
-
 ---
 
 ## 🛠 Tech Stack
@@ -65,13 +61,10 @@ Built with a **Django REST API backend** and a **Streamlit frontend**, it featur
 - Django REST Framework
 - SimpleJWT (authentication)
 - MySQL 8.0+
-- django-filter
-- django-cors-headers
 
 **Frontend**
 - Streamlit
-- Custom CSS (Deep Ocean Professional theme)
-- Google Fonts (Tangerine, Dancing Script, Inter)
+- Custom CSS 
 - Base64 image embedding
 
 **Email**
