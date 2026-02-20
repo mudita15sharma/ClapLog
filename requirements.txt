@@ -1,34 +1,23 @@
+# Django Core
 Django==5.0.1
 djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.1
 django-cors-headers==4.3.1
 django-filter==23.5
-djangorestframework-simplejwt==5.3.1
-mysqlclient==2.2.1
-channels==4.0.0
-channels-redis==4.1.0
-daphne==4.0.0
-celery==5.3.4
-redis==5.0.1
-streamlit==1.31.0
-streamlit-option-menu==0.3.6
-pandas==2.1.4
-openpyxl==3.1.2
-xlsxwriter==3.1.9
-reportlab==4.0.7
-Pillow==11.0.0
-requests==2.31.0
-httpx==0.26.0
-python-decouple==3.8
-argon2-cffi==23.1.0
-pytz==2023.3.post1
-pytest==7.4.4
-pytest-django==4.7.0
-factory-boy==3.3.0
-black==23.12.1
-flake8==7.0.0
+
+# Database - PostgreSQL for Render
+psycopg2-binary==2.9.9
+dj-database-url==2.1.0
+
+# Production Server
 gunicorn==21.2.0
 whitenoise==6.6.0
-dj-database-url==2.1.0
-PyJWT==2.8.0
-psycopg2-binary==2.9.0
+
+# Environment & Security
+python-decouple==3.8
 python-dotenv==1.0.1
+PyJWT==2.8.0
+
+# Utilities
+pytz==2023.3.post1
+requests==2.31.0
