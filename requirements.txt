@@ -9,13 +9,13 @@ channels-redis==4.1.0
 daphne==4.0.0
 celery==5.3.4
 redis==5.0.1
-streamlit==1.30.0
+streamlit==1.31.0
 streamlit-option-menu==0.3.6
 pandas==2.1.4
 openpyxl==3.1.2
 xlsxwriter==3.1.9
 reportlab==4.0.7
-Pillow==10.2.0
+Pillow==11.0.0
 requests==2.31.0
 httpx==0.26.0
 python-decouple==3.8
